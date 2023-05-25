@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.flex-container {
+  display: flex;
+    flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+.flex-container > div {
+  padding: 20px;
+  font-size: 25px;
+}
+#div3 {
+	background-color: green;
+}
+
+#div1 {
+	background-color: red;
+}
+
+#div2 {
+	background-color: blue;
+}
